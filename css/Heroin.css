@@ -1,0 +1,70 @@
+#heroin-wrapper {
+	max-width: 620px;
+	/*following settings are to mimic the well*/
+	height: 2000px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+#button-wrapper {
+	max-width: 620px;
+	display:block;
+	clear:both;
+	height:100px;
+	/*mimic well*/
+	
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.box {
+	height: 20px;
+	width: 20px;
+	display:block;
+	background-color: gray;
+	/*border: 1px solid black;*/
+	margin: 5px 5px 5px 5px;
+	float: left;
+}
+.button {
+	width: 100px;
+	height: 20px;
+	margin: 2px 2px 2px 2px;
+	float:left;
+	cursor:pointer;
+}
+#recovery {
+	background-color: #324044;
+}
+
+#child {
+	background-color: #485F73;
+}
+
+#mother {
+	background-color: #5DA6A6;
+}
+
+#father {
+	background-color: #5DA6A6;
+}
+
+#sibling {
+	background-color: #EB6728;
+}
+
+#friend {
+	background-color: #44BF87;
+}
+
+#user {
+	background-color: #7D243F;
+}
+
+#significant_other {
+	background-color: #B3B89E;
+}
+
+#family {
+	background-color: #F5F8E1;
+}

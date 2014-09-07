@@ -16,7 +16,9 @@ with open('../data/heroin.csv','rb') as file:
         story['town'] = row[4]
         story['story'] = row[5]
         story['quote'] = row[6]
-        story['category'] = row[7]
+        story['category'] = row[7].lower()
+        if story['category'] == 'significant other':
+            story['category'] = 'significant_other'
         if row[8]:
             story['second_category'] = row[8]
     
